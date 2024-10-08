@@ -108,15 +108,15 @@ export const AboutSection = () => {
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
-          title="A Glimpse Into My World"
-          description="Learn more about who I am, what I do, and what inspires me!"
+          title="Delivering Creativity and Proficiency to Your Vision"
+          description="I&apos;m here to add a unique touch of creativity to your project, pushing it beyond what you imagined!"
         />
 
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
-                title="My Reads"
+                title="Certification"
                 description="Explore the books shaping my perspectives"
               />
               <div className="w-40 mx-auto mt-2 md:mt-0">
@@ -125,7 +125,7 @@ export const AboutSection = () => {
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
-                title="My Toolbox"
+                title="Industry Tools"
                 description="Explore the technologies and tools I use to craft exceptional
               digital experiences."
                 className=""
@@ -145,7 +145,7 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
-                title="Beyond Code"
+                title="Beyond Design"
                 description="Explore my hobbies and interests"
                 className="px-6 py-6"
               />

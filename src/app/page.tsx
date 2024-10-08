@@ -12,10 +12,10 @@ export default function Home() {
     <div className="overflow-x-clip">
       <Header />
       <HeroSection />
-      <ProjectsSection />
-      <TapeSection />
-      <TestimonialsSection />
       <AboutSection />
+      <ProjectsSection />
+      {/* <TapeSection /> */}
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>

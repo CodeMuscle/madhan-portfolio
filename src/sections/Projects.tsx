@@ -51,11 +51,11 @@ export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">
             Real-world Results
           </p>
-        </div>
+        </div> */}
         <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
           Featured Projects
         </h2>

@@ -9,7 +9,7 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div className="py-32 md:py-48 lg:py-52 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] -z-10">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -101,12 +101,12 @@ export const HeroSection = () => {
 
       <div className="container">
         <div className="flex flex-col items-center">
-          <Image
+          {/* <Image
             src={memojiImage}
             alt="Person peeking"
             className="size-[100px]"
-          />
-          <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
+          /> */}
+          <div className="bg-gray-950 border border-gray-800 px-6 py-4 inline-flex items-center gap-4 rounded-full">
             <div className="flex items-center justify-center relative">
               <div className="bg-green-500 size-2.5 rounded-full relative">
                 <div className="bg-green-500 inset-0 rounded-full animation-delay-600 absolute animate-ping-large"></div>
@@ -118,18 +118,19 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        <div className="max-w-lg mx-auto">
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+        <div className="max-w-[52rem] mx-auto flex flex-col items-center">
+          <h1 className="font-sans text-3xl md:text-6xl md:leading-[65px] md:font-semibold text-center mt-8 tracking-wide">
+            Innovative UX/UI Designer & No-Code Developer
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performing web applications. Let's discuss your next project!
+          <p className="mt-4 text-center text-white/60 md:text-lg max-w-[60%]">
+            I'm driven by creating eye-catching designs that resonate with
+            audiences. Let&apos;s collaborate!
           </p>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <a href="#projects"
+          <a
+            href="#projects"
             className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
           >
             <span className="font-semibold">Explore My Work</span>
@@ -138,7 +139,7 @@ export const HeroSection = () => {
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl">
             <span>👋🏼</span>
             <span className="font-semibold">
-              <a href="mailto:ganeshgovind11@gmail.com">Let's Connect</a>
+              <a href="mailto:madhanuiux@gmail.com">Let's Connect</a>
             </span>
           </button>
         </div>

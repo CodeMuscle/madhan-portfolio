@@ -2,21 +2,21 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
   {
-    title: "Youtube",
-    href: "#",
-  },
-  {
-    title: "Twitter",
-    href: "#",
-  },
-  {
-    title: "Instagram",
-    href: "#",
+    title: "Behance",
+    href: "https://www.behance.net/madhanv07",
   },
   {
     title: "LinkedIn",
-    href: "#",
+    href: "www.linkedin.com/in/madhan-uiux",
   },
+  {
+    title: "Instagram",
+    href: "https://www.instagram.com/uiuxmadhan?igsh=MWowZ2F5azVtdDh5eA==",
+  },
+  // {
+  //   title: "Twitter",
+  //   href: "#",
+  // },
 ];
 
 export const Footer = () => {
