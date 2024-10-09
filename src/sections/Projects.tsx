@@ -7,6 +7,7 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Card from "@/components/Card";
+import SectionHeader from "@/components/SectionHeader";
 
 const portfolioProjects = [
   {
@@ -56,12 +57,7 @@ export const ProjectsSection = () => {
             Real-world Results
           </p>
         </div> */}
-        <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
-          Featured Projects
-        </h2>
-        <p className="text-center text-white/60 mt-4 md:text-lg max-w-[320px] md:max-w-md lg:text-xl mx-auto">
-          See how I transformed ideas into engaging digital experiences.
-        </p>
+        <SectionHeader title="Featured Projects" description="See how I transformed ideas into engaging digital experiences." />
 
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (

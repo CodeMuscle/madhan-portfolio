@@ -114,7 +114,7 @@ export const AboutSection = () => {
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
-          title="Delivering Creativity and Proficiency to Your Vision"
+          title="Your Vision, My Expertise"
           description="I'm here to add a unique touch of creativity to your project, pushing it beyond what you imagined!"
         />
 

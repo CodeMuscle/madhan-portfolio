@@ -14,10 +14,10 @@ const SectionHeader = ({
           {eyebrow}
         </p> */}
       </div>
-      <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
+      <h2 className="font-sans font-semibold text-3xl md:text-5xl text-center mt-6">
         {title}
       </h2>
-      <p className="text-center text-white/60 mt-4 md:text-lg max-w-[320px] md:max-w-md lg:text-xl mx-auto">
+      <p className="text-center text-white/60 mt-4 md:text-lg max-w-[320px] md:max-w-md lg:text-xl mx-auto lg:max-w-2xl">
         {description}
       </p>
     </>
