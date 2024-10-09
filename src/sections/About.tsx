@@ -6,13 +6,15 @@ import SectionHeader from "@/components/SectionHeader";
 
 import bookImage from "@/assets/images/book-cover.png";
 import mapImage from "@/assets/images/map.png";
-import JavascriptIcon from "@/assets/icons/square-js.svg";
-import HTMLIcon from "@/assets/icons/html5.svg";
-import CSSIcon from "@/assets/icons/css3.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import NextIcon from "@/assets/icons/nextjs.svg";
+import FigmaIcon from "@/assets/icons/figma.svg";
+import FramerIcon from "@/assets/icons/framer.svg";
+import IllustratorIcon from "@/assets/icons/illustrator.svg";
+import ChatGPTIcon from "@/assets/icons/chatgpt.svg";
+import NotionIcon from "@/assets/icons/notion.svg";
+import PhotoshopIcon from "@/assets/icons/photoshop.svg";
 import WebflowIcon from "@/assets/icons/webflow.svg";
-import GitIcon from "@/assets/icons/github.svg";
+import AdobeXDIcon from "@/assets/icons/adobe-xd.svg";
+import SplineIcon from "@/assets/icons/spline.svg";
 
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import CardHeader from "@/components/CardHeader";
@@ -22,36 +24,40 @@ import { useRef } from "react";
 
 const toolboxItems = [
   {
-    title: "Javascript",
-    iconType: JavascriptIcon,
+    title: "Figma",
+    iconType: FigmaIcon,
   },
   {
-    title: "HTML5",
-    iconType: HTMLIcon,
-  },
-  {
-    title: "CSS3",
-    iconType: CSSIcon,
-  },
-  {
-    title: "React",
-    iconType: ReactIcon,
-  },
-  {
-    title: "React Native",
-    iconType: ReactIcon,
-  },
-  {
-    title: "NextJS",
-    iconType: NextIcon,
+    title: "Framer",
+    iconType: FramerIcon,
   },
   {
     title: "Webflow",
     iconType: WebflowIcon,
   },
   {
-    title: "Git",
-    iconType: GitIcon,
+    title: "Illustrator",
+    iconType: IllustratorIcon,
+  },
+  {
+    title: "ChatGPT",
+    iconType: ChatGPTIcon,
+  },
+  {
+    title: "Notion",
+    iconType: NotionIcon,
+  },
+  {
+    title: "Photoshop",
+    iconType: PhotoshopIcon,
+  },
+  {
+    title: "Adobe XD",
+    iconType: AdobeXDIcon,
+  },
+  {
+    title: "Spline",
+    iconType: SplineIcon,
   },
 ];
 
@@ -109,7 +115,7 @@ export const AboutSection = () => {
         <SectionHeader
           eyebrow="About Me"
           title="Delivering Creativity and Proficiency to Your Vision"
-          description="I&apos;m here to add a unique touch of creativity to your project, pushing it beyond what you imagined!"
+          description="I'm here to add a unique touch of creativity to your project, pushing it beyond what you imagined!"
         />
 
         <div className="mt-20 flex flex-col gap-8">
